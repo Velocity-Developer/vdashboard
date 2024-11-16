@@ -23,7 +23,12 @@ const MyPreset = definePreset(Aura, {
 export default defineNuxtConfig({
   compatibilityDate: '2024-04-03',
   devtools: { enabled: true },
-  modules: ['nuxt-auth-sanctum', '@nuxtjs/tailwindcss','@primevue/nuxt-module'],
+  modules: [
+    'nuxt-auth-sanctum',
+    '@nuxtjs/tailwindcss',
+    '@primevue/nuxt-module',
+    '@nuxt/icon'
+  ],
   sanctum: {
       baseUrl: process.env.BACKEND_URL,
   },

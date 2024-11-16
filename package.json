@@ -10,8 +10,10 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/icon": "^1.7.5",
     "@nuxtjs/tailwindcss": "^6.12.2",
     "@primevue/themes": "^4.2.2",
+    "chart.js": "^4.4.6",
     "nuxt": "^3.14.159",
     "nuxt-auth-sanctum": "^0.5.1",
     "primevue": "^4.2.2",
